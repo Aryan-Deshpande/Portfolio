@@ -12,9 +12,8 @@ function App() {
   }
 
   const imgstyle = {
-    width: '250px',
-    height: '250px',
-    borderRadius: '50%',
+    maxWidth: '300px',
+    borderRadius: '40%',
   }
 
   return (
@@ -24,7 +23,7 @@ function App() {
       <br></br>
 
       <div class="intro" style={{styling}}>
-        <img style={imgstyle} src={require('./vegito.jpg')} alt="Aryan Deshpande"/>
+        <img style={imgstyle} src={require('./aryan6.jpg')} alt="Aryan Deshpande"/>
         
         <div>
           <a>
