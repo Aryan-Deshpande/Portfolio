@@ -19,11 +19,22 @@ function App() {
 
   return (
     <div className="App">
+      
       <NavbarComp />
+      <br></br>
+
       <div class="intro" style={{styling}}>
         <img style={imgstyle} src={require('./vegito.jpg')} alt="Aryan Deshpande"/>
-        <p>Hey there this is my Bio</p>
+        
+        <div>
+          <a>
+            
+          </a>
+        </div>
+
+        <p>Hey there this is my bio, Hey there this is my bio, Hey there this is my bio, Hey there this is my bio, ,Hey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bioHey there this is my bio</p>
       </div>
+  
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
