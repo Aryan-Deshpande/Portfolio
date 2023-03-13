@@ -9,8 +9,8 @@ function NavbarComp(){
     return(
         <Navbar bg="light" variant="light" className="justified-content-center" fixed='top'>
         <Container>
-          <Navbar.Brand href="#aryan">Aryan Deshpande</Navbar.Brand>
-          <Nav>
+          <Navbar.Brand href="#aryan" onClick={() => window.location.replace("/#App")}>Aryan Deshpande</Navbar.Brand>
+          <Nav className='navbar-font'>
             <Nav.Link href="#projects" onClick={() => window.location.replace("/#projects")}>Projects</Nav.Link>
             <Nav.Link href="#blogs" onClick={() => window.location.replace("/#blogs")}>Blogs</Nav.Link>
             <Nav.Link href="#stack" onClick={() => window.location.replace("/#stack")}>Stack</Nav.Link>

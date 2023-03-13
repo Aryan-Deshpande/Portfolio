@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App" >
       
       <NavbarComp className="justified-content-center"/>
       <br></br>
@@ -29,7 +29,7 @@ function App() {
       <br></br>
       <br></br>
 
-      <div className="intropic" style={{styling}}>
+      <div className="intropic" style={{styling}} id="App">
         <img src={require('./multimedia/ssv3.jpg')} alt="Aryan Deshpande" class="profimg" />
 
         <br></br>
@@ -85,10 +85,10 @@ function App() {
       </div>
 
       <header className="App-desc">
-        <p>
-          Deep Learning Enthusiast <code>&</code> Distributed Systems.
-      
-        </p>
+        <div>
+        <p className="body-text">
+          Deep Learning Enthusiast <code>&</code> Distributed Systems.</p>
+        </div>
       </header>
 
       <header className="App-proj" id="projects">
@@ -99,6 +99,7 @@ function App() {
       </header>
 
       <header className="App-blog" id="blogs">
+        <br></br>
         <h1>Blog</h1>
         <p>
           series of blogs
@@ -110,6 +111,15 @@ function App() {
         <p>
           series of technologies
         </p>
+
+        <div>
+          <img src={require('./multimedia/docker.png')} alt="Aryan Deshpande" class="profimg"/>
+          <img src={require('./multimedia/k8s.png')} alt="Aryan Deshpande" class="profimg"/>
+          <img src={require('./multimedia/az.png')} alt="Aryan Deshpande"  class="profimg"/>
+          <img src={require('./multimedia/py.png')} alt="Aryan Deshpande"  class="profimg"/>
+          <img src={require('./multimedia/go.png')} alt="Aryan Deshpande"  class="profimg"/>
+        </div>
+
       </header>
 
       <FooterComp />

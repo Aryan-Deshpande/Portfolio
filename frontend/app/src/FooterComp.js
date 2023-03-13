@@ -9,7 +9,7 @@ function FooterComponent(){
         <Navbar bg="dark" variant="dark" className="justified-content-center" >
         <Container>
           <Navbar.Brand href="#aryan">Aryan Deshpande</Navbar.Brand>
-          <Nav>
+          <Nav className='footer-font'>
             <Nav.Link href="#resume">Something is cooking</Nav.Link>
           </Nav>
         </Container>
