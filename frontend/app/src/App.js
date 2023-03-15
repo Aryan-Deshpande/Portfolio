@@ -87,23 +87,65 @@ function App() {
       <header className="App-desc">
         <div>
         <p className="body-text">
-          Deep Learning Enthusiast <code>&</code> Distributed Systems.</p>
+          Deep Learning <code>&</code> Distributed Systems Enthusiast </p>
         </div>
       </header>
 
       <header className="App-proj" id="projects">
         <h1>Projects</h1>
         <p>
-          projects
+          a
+        </p>
+
+        <p>
+          b
         </p>
       </header>
 
       <header className="App-blog" id="blogs">
         <br></br>
         <h1>Blog</h1>
-        <p>
-          series of blogs
-        </p>
+
+        <div className="blogs">
+          
+          <table className="devops">
+            <tbody>
+              <tr>
+                <td class="publication-cover">
+                  <img src={require('./multimedia/devops.png')} alt="k8s and container security"/>
+                </td>
+                <td>
+                  <p>
+                    <strong>
+                    <a href='https://blog.wemakedevs.org/a-descent-into-kubernetes'>Descent <code>into</code> Kubernetes</a>
+                    </strong>
+                  </p>
+                </td>
+
+              </tr>
+            </tbody>
+          </table>
+
+          <table className="devops">
+            <tbody>
+              <tr>
+                <td class="publication-cover">
+                  <img src={require('./multimedia/dockering.png')} alt="k8s and container security"/>
+                </td>
+                <td>
+                  <p>
+                    <strong>
+                    <a href='https://blog.kubesimplify.com/container-and-kubernetes-security'>Container <code>&</code> Kubernetes Security</a>
+                    </strong>
+                  </p>
+                </td>
+
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
       </header>
 
       <header className="App-stack" id="stack">
